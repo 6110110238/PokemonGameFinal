@@ -93,7 +93,7 @@ public class TransferPokemon extends JFrame {
             pokemon.addActionListener(new ActionListener(){
                 public void actionPerformed(ActionEvent e){
                     name = p.getName();
-                    maxMp = p.getMaxExp();
+                    maxMp = p.getMaxMp();
                     if(maxMp == 100){
                         coin = 250;
                         exp = 50;
